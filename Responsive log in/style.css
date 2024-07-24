@@ -1,0 +1,45 @@
+body {
+    background: url('asset/6674339_3383078.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+}
+
+.login-box {
+    background: transparent;
+    border-radius: 10px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.link:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .login-container {
+        padding: 10px;
+    }
+
+    .login-box {
+        padding: 20px;
+    }
+}

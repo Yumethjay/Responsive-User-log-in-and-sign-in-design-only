@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User log in</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="asset/1564534_customer_man_user_account_profile_icon.png">
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="login-box shadow-lg p-4">
+            <h2 class="text-center text-white" id="formTitle">Sign In</h2>
+            <form id="signInForm">
+                <div class="form-group">
+                    <label for="signinUsername" class="text-white">Username</label>
+                    <input type="text" class="form-control" id="signinUsername" placeholder="Enter username" required>
+                </div>
+                <div class="form-group">
+                    <label for="signinPassword" class="text-white">Password</label>
+                    <input type="password" class="form-control" id="signinPassword" placeholder="Enter password"
+                        required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block text-white">Sign In</button>
+            </form>
+            <form id="signUpForm" style="display: none;">
+                <div class="form-group">
+                    <label for="signupUsername" class="text-white">Username</label>
+                    <input type="text" class="form-control" id="signupUsername" placeholder="Enter username" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupEmail" class="text-white">Email</label>
+                    <input type="email" class="form-control" id="signupEmail" placeholder="Enter email" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword" class="text-white">Password</label>
+                    <input type="password" class="form-control" id="signupPassword" placeholder="Enter password"
+                        required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
+            </form>
+            <div class="text-center mt-3">
+                <a href="#" class="link" id="toggleForm">Don't have an account? Sign Up</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>
